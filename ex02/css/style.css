@@ -1,0 +1,31 @@
+
+        body {
+    width: 800px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background: linear-gradient(to right, #C9A227, #A8861B);
+    color: white;
+    padding: 20px;
+    display: flow-root; /* khung ôm trọn ảnh float, không bị tràn */
+}
+
+.banner h1 {
+    text-align: center;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.banner img {
+    width: 250px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: 3px solid white;
+}
+
+.banner p {
+    text-align: justify;
+    line-height: 1.6;
+}
